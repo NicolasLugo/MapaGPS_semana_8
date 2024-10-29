@@ -1,7 +1,7 @@
 # **Mapa GPS NicolásLugo**
 
 ### **Descripción básica**
-Esta es una aplicación Android que utiliza la API de Google Maps para mostrar la ubicación actual del usuario, esta aplicación muestra la ubicación exacta, es mostrada con una interfaz simple para obtener y visualizar información de ubicación en tiempo real.
+Esta es una aplicación Android que utiliza la API de Google Maps para mostrar la ubicación actual del usuario, esta aplicación muestra la ubicación exacta, es mostrada con una interfaz simple para obtener y visualizar información de ubicación en tiempo real. 
 
 >[!Note]
 >### **¿Qué hace?**
@@ -18,7 +18,7 @@ Esta es una aplicación Android que utiliza la API de Google Maps para mostrar l
 >### Instalación
 >1. Clona este repositorio:
 >    ```bash
->    git clone https://github.com/Ferna-n/GPSMapML.git
+>    git clone https://github.com/NicolasLugo/MapaGPS_semana_8.git
 >    ```
 >2. Abre el proyecto en Android Studio.
 >3. Agrega la clave API de Google Maps en el archivo `AndroidManifest.xml`:
@@ -34,3 +34,10 @@ Esta es una aplicación Android que utiliza la API de Google Maps para mostrar l
 >1. Al abrir la aplicación, se solicitarán permisos de ubicación. Concede los permisos para que la aplicación pueda obtener tu ubicación actual.
 >2. Una vez concedidos los permisos, el mapa mostrará tu ubicación con un marcador.
 >3. Si la ubicación no está disponible, la aplicación te notificará con un mensaje de error.
+
+>[!Important]
+>Documentación:
+>- [Vulnerabilidades](vulnerabilities.md)
+>- [Consejos de seguridad](security_tips.md)
+>- [Buenas prácticas](best_practices.md)
+>- [Plan de mejora futuro](security_improvement_program.md)
