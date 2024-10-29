@@ -37,7 +37,7 @@ Esta es una aplicación Android que utiliza la API de Google Maps para mostrar l
 
 >[!Important]
 >Documentación:
->- [Vulnerabilidades](vulnerabilities.md)
->- [Consejos de seguridad](security_tips.md)
->- [Buenas prácticas](best_practices.md)
->- [Plan de mejora futuro](security_improvement_program.md)
+>- [Vulnerabilidades](app/vulnerabilities.md)
+>- [Consejos de seguridad](app/security_tips.md)
+>- [Buenas prácticas](app/best_practices.md)
+>- [Plan de mejora futuro](app/security_improvement_program.md)
