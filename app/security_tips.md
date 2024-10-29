@@ -1,15 +1,17 @@
-# Consejos de seguridad
+# Security Tips
 
-## Resumen
-- Mantener la aplicación y dispositivos actualizados
-- Minimizar los permisos solicitados y revisar los permisos
-- Utilizar autenticación fuerte y evitar redes inseguras
+Este documento describe consejos de seguridad implementados para reforzar la seguridad de la app.
 
-## 1. Mantener la aplicación y dispositivos actualizados
-El tener la aplicación actualizada permite usar de manera correcta los parches que incluyen correcciones de seguridad importantes.
+## Consejos Implementados
 
-## 2. Minimizar los permisos solicitados y revisar los permisos
-Solo solicita los permisos estrictamente necesarios para que la aplicación funcione correctamente. Evita pedir acceso a datos sensibles que no sean esenciales para el funcionamiento de la app.
+- **Protección contra Inyección SQL**
+  - **Descripción**: Sanitización de entradas del usuario para evitar inyecciones SQL.
+  - **Beneficio**: Protege la app de ataques que intentan manipular la base de datos.
 
-## 3. Utilizar autenticación fuerte y evitar redes inseguras
-Implementa autenticación fuerte en la app, como JWT (JSON Web Tokens) o OAuth 2.0, y anima a los usuarios a habilitar autenticación multifactor (MFA) si es posible. Asegúrate también de que todas las conexiones de la aplicación se realicen a través de HTTPS.
+- **Autenticación y Autorización Seguras**
+  - **Descripción**: Implementación de autenticación basada en token para validar usuarios.
+  - **Beneficio**: Permite que solo usuarios autorizados accedan a ciertas funcionalidades.
+
+- **Protección contra Ataques de Red (MITM)**
+  - **Descripción**: Uso de HTTPS para todas las solicitudes y validación de certificados.
+  - **Beneficio**: Previene que atacantes intercepten o modifiquen las comunicaciones de red.
